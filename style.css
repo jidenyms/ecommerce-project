@@ -29,7 +29,8 @@ nav{
     display: flex;
     justify-content: space-around;
     position: fixed;
-    z-index: 1;
+    z-index: 6
+    ;
     width: 100%;
     align-items: center;
     background-color: #FDFFFF;
