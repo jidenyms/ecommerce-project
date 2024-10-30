@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
     <script src="index.js" defer></script>
     <title>HOUSE OF Debliz</title>
   </head>
   <body>
+
     <div class="backdrop"></div>
     <div class="menu">
       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum et commodi
@@ -141,12 +142,16 @@
       </section>
       <section class="price-con">
         <section class="txt-3">
-          <h2 style="font-size: smaller">Dress</h2>
-          <h3 style="font-size: smaller">#1000.00</h3>
-        </section>
+          <a href="/first">
+            <h2 style="font-size: smaller">Dress</h2>
+            <h3 style="font-size: smaller">#1000.00dhkdv</h3>
+          </a>
+          </section>
         <section class="txt-3">
-          <h2 style="font-size: smaller">Dress</h2>
-          <h3 style="font-size: smaller">#1000.00</h3>
+          <a href="dress/second">
+            <h2 style="font-size: smaller">Dress</h2>
+            <h3 style="font-size: smaller">#1000.00</h3>
+          </a>
         </section>
         <section class="txt-3">
           <h2 style="font-size: smaller">Dress</h2>
